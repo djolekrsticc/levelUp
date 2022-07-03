@@ -5,38 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-    <title>Instaclone</title>
+    <title>Login | NORTHWEST</title>
 </head>
 <body>
-
-    <div class="container">
-        <div class="container__div_image">
-            <img src="../../images/login.png" alt="Login image" class="container__image">
+    <div class="page">
+        <div class="container">
+            <div class="container__div_image">
+                <img src="../../images/login.png" alt="Login image" class="container__image">
+            </div>
+    
+            <div class="container__div_login">
+                <div class="container__login">
+                    <div class="container__logo">
+                        <a href="#"><img src="../../images/logo.png" alt="Logo" class="container__logo-image"></a>
+                    </div>
+                    <div class="container__form-div">
+                        <form class="container__form">
+                            <input type="email" id="container__form-email" placeholder="Phone number, username, or email">
+                            <input type="password" id="container__form-password" placeholder="Password">
+                            <button id="login-btn" class="container__form-button">Log in</button>
+                            <div class="container__form-divider">
+                                <div class="container__form-divider-div"></div>
+                                <div>OR</div>
+                                <div class="container__form-divider-div"></div>
+                            </div>
+                            <button class="container__form-github-button">
+                                <img src="../../images/github.png" alt="github-logo" class="container__form-github-logo">
+                                <p class="container__form-github-p">Log in with Github</p>
+                            </button>
+                        </form>
+                        <a href="#" class="container__forgot-password">Forgot password?</a>
+                    </div>
+                </div>
+    
+                <div class="container__signup">
+                    <p>Don't have account?</p>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
         </div>
-
-        <div class="container__div_login">
-            <div class="container__login">
-                <div class="container__logo">
-                    <a href="#"><img src="../../images/logo.png" alt="Logo"></a>
-                </div>
-                <div class="container__form">
-                    
-                </div>
-            </div>
-
-            <div class="container__signup">
-                <p>Don't have account?</p>
-                <a href="#">Sign up</a>
-            </div>
-
-            <div class="container__download-app">
-                <p class="container__get-the-app">Get the app.</p>
-                <div>
-                    <a href=""><img src="../../images/appstore.png" alt="app-store"></a>
-                    <a href=""><img src="../../images/googleplay.png" alt="google-play"></a>
-                </div>
-            </div>
-        </div>
+        <footer>&#169; 2022 NORTHWEST from Đorđe Krstić</footer>
     </div>
     
     <script src="login.js" type="module"></script>

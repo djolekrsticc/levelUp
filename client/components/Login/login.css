@@ -3,32 +3,113 @@
     padding: 0;
 }
 
-.container {
+.page {
     height: 100vh;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.container__signup {
-    display: flex;
-    flex-direction: row;
-
-    padding: 20px 30px;
-
-    border: 1px solid black;
-}
-
-.container__download-app {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container__download-app img {
-    width: 136px;
-    height: 46px;
+.container {
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__logo-image {
+    width: 300px;
+    height: 35px;
+
+    padding-top: 36px;
+    padding-bottom: 12px;
+}
+
+.container__div_login {
+
+}
+
+.container__login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 397.5px;
+
+    padding: 0px 20px;
+
+    border: 1px solid #acacac;
+}
+
+.container__form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    width: 348px;
+    height: 267px;
+}
+
+.container__form-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.container__form-divider-div {
+    width: 106px;
+    height: 1px;
+    background-color: rgba(var(--b38,219,219,219),1);
+}
+
+.container__signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 30px;
+
+    padding: 20px 30px;
+
+    border: 1px solid #acacac;
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__form-github-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__form-github-logo {
+    width: 16px;
+    height: 16px;
+}
+
+.container__form-github-p {
+    padding-left: 16px;
+}
+
+.container__forgot-password {
+    text-decoration: none;
 }
