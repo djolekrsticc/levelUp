@@ -8,7 +8,358 @@
     <title>Feed | NORTHWEST</title>
 </head>
 <body>
+    <nav>
+        <div class="nav__div">
+            <a href="#"><img src="../../images/logo.png" alt="logo" class="nav__logo"></a>
+        </div>
+        <div class="nav__div">
+            <input type="text" placeholder="Search" class="nav__search">
+        </div>
+        <div id="nav__div" class="nav__div">
+            <ul class="nav__items">
+                <li class="nav__item">
+                   <a href="#"><img src="../../images/icons/icons8-hut-50-2.png" class="nav__icon" onclick="promeni(0)"></a>
+                </li>
+                <li class="nav__item">
+                    <a href="#"><img src="../../images/icons/icons8-chat-bubble-50.png" class="nav__icon" onclick="promeni(1)"></a>
+                </li>
+                <li class="nav__item">
+                    <a href="#"><img src="../../images/icons/icons8-add-50.png" class="nav__icon" onclick="promeni(2)"></a>
+                </li class="nav__item">
+                <li class="nav__item">
+                    <a href="#"><img src="../../images/icons/icons8-compass-50.png" class="nav__icon" onclick="promeni(3)"></a>
+                </li>
+                <li class="nav__item">
+                    <a href="#"><img src="../../images/icons/icons8-heart-50.png" class="nav__icon" onclick="promeni(4)"></a>
+                </li>
+                <li class="nav__item">
+                    <a href="#"><img src="../../images/icons/icons8-user-50.png" class="nav__icon" onclick="promeni(5)"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="main__section_left">
+            <div id="main__section_left-stories-div">
+                <div id="main__section_left-stories">
+                    <button class="story-slider-btn" onclick="show(-4)">
+                        <img src="../../images/icons/story-slider-btn.png" alt="story-back-button"  id="story-slider-btn-back">
+                    </button>
+                    <ul id="main__section_left-stories-collection" class="stories-collection">
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user0.png" alt="user0" class="user__image">
+                                    </div>
+                                    <p>1</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user1.png" alt="user1" class="user__image">
+                                    </div>
+                                    <p>2</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user2.png" alt="user2" class="user__image">
+                                    </div>
+                                    <p>3</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user3.png" alt="user3" class="user__image">
+                                    </div>
+                                    <p>4</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user4.png" alt="user4" class="user__image">
+                                    </div>
+                                    <p>5</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user5.png" alt="user5" class="user__image">
+                                    </div>
+                                    <p>6</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user6.png" alt="user6" class="user__image">
+                                    </div>
+                                    <p>7</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user7.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>8</p>
+                                </div>
+                            </button>
+                        </li>
+
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user8.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>9</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user1.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>10</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user2.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>11</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user3.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>12</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user4.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>13</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user5.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>14</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li class="story-li">
+                            <button class="story-btn">
+                                <div class="story">
+                                    <div class="story-circle">
+                                        <canvas class="spinner"></canvas>
+                                        <img src="../../images/users/user6.png" alt="user7" class="user__image">
+                                    </div>
+                                    <p>15</p>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                    <button class="story-slider-btn" onclick="show(4)">
+                        <img src="../../images/icons/story-slider-btn.png" alt="story-next-button" id="story-slider-btn-next">
+                    </button>
+                </div>
+            </div>
+
+            <div id="main__section_left-posts">
+                <article id="main__section_left-post">
+                    <div id="post__header" class="post-item">
+                        <div id="post__header--left">
+                            <div id="post__header--left-image-div">
+                                <a href="#"><img src="../../images/users/user0.png" alt="user0" id="post__header--left-image"></a>
+                            </div>
+                            <div id="post__header--left-username-div">
+                                <a href=""><p id="post__header--left-username">djole_krsticc</p></a>
+                                <a href=""><p id="post__header--left-location">Nis, Srbija</p></a>
+                            </div>
+                        </div>
+                        <div id="post__header--right">
+                            <a href="#"><img src="../../images/icons/dots.png" alt="menu" id="post__header--right-image"></a>
+                        </div>
+                    </div>
+                    <div id="post__image-div" class="post-item">
+                        <img src="../../images/post-images/image0.jpg" alt="post-image" id="post__image">
+                    </div>
+                    <!-- <div id="post__btns" class="post-item">
+
+                    </div>
+                    <div id="post__likes" class="post-item">
+
+                    </div>
+                    <div id="post__description" class="post-item">
+
+                    </div>
+                    <div id="post__comments" class="post-item">
+
+                    </div>
+                    <div id="post__date" class="post-item">
+
+                    </div>
+                    <div id="post__add-comment" class="post-item">
+                        
+                    </div> -->
+                </article>
+            </div>
+        </div>
+        
+        <div id="main__section_right">
+            <div id="main__section_right-profileSwitch">
+
+                <div id="main__section_right-profileSwitch-div">
+                    <a href="#"><img src="../../images/users/user0.png" alt="profile-image" class="user__image"></a>
+                    <div id="main__section_right-profileSwitch-div-p">
+                        <a href=""><p id="main__section_right-profileSwitch-username">djole_krsticc</p></a>
+                        <p id="main__section_right-profileSwitch-fullName">Ђорђе Крстић</p>    
+                    </div>
+                </div>
+
+                <a href="#" class="blue-link">Switch</a>
+            </div>
+
+            <div id="main__section_right-suggestions">
+                <div id="main__section_right-suggestions-div">
+                    <p id="main__section_right-suggestions-div-p">Suggestions For You</p>
+                    <a href="#" id="main__section_right-suggestions-div-a">See All</a>
+                </div>
+                <!-- Hard coded suggestions -->
+                <div id="main__section_right-suggestion">
+
+                    <div id="main__section_right-suggestion-div">
+                        <a href="#"><img src="../../images/users/user0.png" alt="profile-image" class="user__image-small"></a>
+                        <div id="main__section_right-suggestion-div-p">
+                            <a href=""><p id="main__section_right-suggestion-username">djole_krsticc</p></a>
+                            <p id="main__section_right-suggestion-followed">Followed by username + 5 more</p>    
+                        </div>
+                    </div>
     
-    <script src="feed.js" type="module"></script>
+                    <a href="#" class="blue-link">Follow</a>
+                </div>
+
+                <div id="main__section_right-suggestion">
+
+                    <div id="main__section_right-suggestion-div">
+                        <a href="#"><img src="../../images/users/user1.png" alt="profile-image" class="user__image-small"></a>
+                        <div id="main__section_right-suggestion-div-p">
+                            <a href=""><p id="main__section_right-suggestion-username">djole_krsticc</p></a>
+                            <p id="main__section_right-suggestion-followed">Followed by username + 5 more</p>    
+                        </div>
+                    </div>
+    
+                    <a href="#" class="blue-link">Follow</a>
+                </div>
+
+                <div id="main__section_right-suggestion">
+
+                    <div id="main__section_right-suggestion-div">
+                        <a href="#"><img src="../../images/users/user2.png" alt="profile-image" class="user__image-small"></a>
+                        <div id="main__section_right-suggestion-div-p">
+                            <a href=""><p id="main__section_right-suggestion-username">djole_krsticc</p></a>
+                            <p id="main__section_right-suggestion-followed">Followed by username + 5 more</p>    
+                        </div>
+                    </div>
+    
+                    <a href="#" class="blue-link">Follow</a>
+                </div>
+
+                <div id="main__section_right-suggestion">
+
+                    <div id="main__section_right-suggestion-div">
+                        <a href="#"><img src="../../images/users/user3.png" alt="profile-image" class="user__image-small"></a>
+                        <div id="main__section_right-suggestion-div-p">
+                            <a href=""><p id="main__section_right-suggestion-username">djole_krsticc</p></a>
+                            <p id="main__section_right-suggestion-followed">Followed by username + 5 more</p>    
+                        </div>
+                    </div>
+    
+                    <a href="#" class="blue-link">Follow</a>
+                </div>
+
+                <div id="main__section_right-suggestion">
+
+                    <div id="main__section_right-suggestion-div">
+                        <a href="#"><img src="../../images/users/user4.png" alt="profile-image" class="user__image-small"></a>
+                        <div id="main__section_right-suggestion-div-p">
+                            <a href=""><p id="main__section_right-suggestion-username">djole_krsticc</p></a>
+                            <p id="main__section_right-suggestion-followed">Followed by username + 5 more</p>    
+                        </div>
+                    </div>
+    
+                    <a href="#" class="blue-link">Follow</a>
+                </div>
+                <!-- End of hard coded suggestions -->
+            </div>
+
+            <footer id="main__section_right-footer">
+                <span id="footer__text">&#169; 2022 NORTHWEST from Đorđe Krstić</span>
+            </footer>
+        </div>
+    </main>
+    <script src="feed.js"></script>
 </body>
 </html>
